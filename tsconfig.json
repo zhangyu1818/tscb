@@ -5,6 +5,7 @@
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": false,
     "strict": true,
+    "moduleResolution": "Node",
     "noUnusedParameters": true,
     "noUnusedLocals": true,
     "strictBindCallApply": true,
