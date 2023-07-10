@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": false,
+    "strict": true,
+    "noUnusedParameters": true,
+    "noUnusedLocals": true,
+    "strictBindCallApply": true,
+    "alwaysStrict": true,
+    "skipLibCheck": true,
+    "declaration": false,
+    "outDir": "./dist"
+  },
+  "include": ["lib"]
+}
