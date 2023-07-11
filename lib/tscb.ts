@@ -27,8 +27,11 @@ export const tscb = (options: TypeScriptOptions = {}, configPath?: string) => {
   const tempPath = path.join(cwd, '.temp.json')
   try {
     fs.writeJSONSync(tempPath, tsconfig)
+    console.log('building...')
     spawnSync('tsc', ['--project', tempPath], { stdio: 'inherit' })
+    console.log('build complete')
   } catch (e) {
+    console.error(e)
   } finally {
     fs.unlinkSync(tempPath)
   }

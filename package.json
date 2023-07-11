@@ -10,7 +10,7 @@
     "lint-staged": "^13.2.3",
     "prettier": "^3.0.0",
     "tsc-files": "^1.1.4",
-    "tscb": "0.0.0",
+    "tscb": "^1.0.1",
     "typescript": "^5.1.6"
   },
   "dependencies": {
@@ -35,15 +35,36 @@
   ],
   "name": "tscb",
   "bin": {
-    "tscb": "./dist/cjs/cli.js"
+    "tscb": "./dist/cli.js"
   },
-  "version": "0.0.0",
-  "main": "./dist/cjs/index.js",
-  "types": "./dist/type/index.d.ts",
+  "version": "1.0.1",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "exports": {
     ".": {
-      "require": "./dist/cjs/index.js"
+      "require": "./dist/index.js"
     }
   },
-  "type": "commonjs"
+  "type": "commonjs",
+  "homepage": "https://github.com/zhangyu1818/tscb",
+  "author": {
+    "url": "https://zhangyu.dev",
+    "name": "zhangyu1818"
+  },
+  "repository": {
+    "url": "https://github.com/zhangyu1818/tscb"
+  },
+  "description": "A lightweight TypeScript packaging library.",
+  "keywords": [
+    "typescript",
+    "bundle",
+    "tsconfig"
+  ],
+  "tscb": {
+    "compilerOptions": {
+      "module": "commonjs",
+      "outDir": "dist",
+      "declaration": true
+    }
+  }
 }
