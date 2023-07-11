@@ -35,8 +35,8 @@ devDependencies:
     specifier: ^1.1.4
     version: 1.1.4(typescript@5.1.6)
   tscb:
-    specifier: 0.0.0
-    version: 0.0.0(typescript@5.1.6)
+    specifier: ^1.0.1
+    version: 1.0.1(typescript@5.1.6)
   typescript:
     specifier: ^5.1.6
     version: 5.1.6
@@ -859,8 +859,8 @@ packages:
       typescript: 5.1.6
     dev: true
 
-  /tscb@0.0.0(typescript@5.1.6):
-    resolution: {integrity: sha512-5QRy8ZYY7peZz+B4T3TUcDsJfMq+gNJSnOkf7foUJdA4mFozo8fAudaeZm+rS0ItR7Cdgss2fZcQdpdvDZhCfw==}
+  /tscb@1.0.1(typescript@5.1.6):
+    resolution: {integrity: sha512-0Krllc5m9dZ6XJPYcfrMkeXjW3KPpApJ3diIJN2h+GA3xDOzk4GIJ2WOJUZQE0bfc+L2NJ81E32L/L/KuSQ0Uw==}
     engines: {node: '>=18'}
     hasBin: true
     peerDependencies:
